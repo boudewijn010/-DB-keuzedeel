@@ -24,8 +24,8 @@ class Databeest(context: Context) :
           $COLUMN_NAME TEXT,
           $COLUMN_EMAIL TEXT,
           $COLUMN_PASSWORD TEXT
-                           )
-                       """.trimIndent()
+          )
+          """.trimIndent()
         db?.execSQL(createTable)
     }
 
